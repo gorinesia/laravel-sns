@@ -13,7 +13,7 @@
 
                         @include('error_card_list')
 
-                        <div class="cart-text">
+                        <div class="card-text">
                             <form method="POST" action="{{ route('register') }}">
                                 @csrf
                                 <div class="md-form">
